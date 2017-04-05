@@ -23,10 +23,12 @@ object Solution {
     // array of integers representing coin values
     val coins = coinsText.split(" ").map(coinString => coinString.toInt)
 
+    // verify
     //println("goal: " + goal)
     //println("numberOfCoins: " + numberOfCoins)
     //println("coins: " + coins.mkString(" "))
 
+    // we'll solve the actual problem using dynamic programming
 
 
   }
